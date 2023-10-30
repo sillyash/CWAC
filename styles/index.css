@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+*{
+	margin  : 0;
+	padding : 0;
+	font-family : 'Josefin Sans';
+	background-color : #fffaebff;
+}
+
+.logo {
+	width : 75px;
+	height : 70px;
+	margin : 0.4rem 1rem 0.4rem 0.4rem;
+	float : left;
+}
+
+.navbar {
+	border-bottom : 1.5px solid black;
+	overflow : auto;
+}
+
+nav {
+	margin : auto;
+	width : auto;
+	position : relative;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	align-content : center;
+	justify-content : space-evenly;
+	height : 70px;
+}
+
+nav > a{
+	text-align : center;
+	font-weight : bold;
+	text-decoration : none;
+	font-size : 1rem;
+	color : black;
+	margin : 0.7rem 1rem 0.7rem 1rem;
+	width : auto;
+}
+nav a.ici{
+	color : #e84a5f;
+}
+
+footer {
+	width : 100%;
+	border-top : 1.5px solid black;
+	margin : 1rem 0 0 0;
+	padding : 0.8rem 0.6rem 0.5rem 0.6rem;
+	position : relative;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	align-content : center;
+	justify-content : space-evenly;
+}
+
