@@ -15,7 +15,7 @@ Ash Merienne & Abdallah Syd
 
 ### Vidéos
 [Vidéo de la page principale](https://www.pexels.com/video/advanced-equipment-used-in-a-home-studio-5657831/)
-[Vidéo de la page principale (+texte)](https://youtu.be/zh11Jz21vOY)
+[Vidéo de la page principale (+texte)](https://youtu.be/l1Dntr3KN_8)
 
 ### Autres
 [Maquette (faite par nous)](https://docs.google.com/presentation/d/1-viJzDL1bbXHDRZTLmz1l017Vd1IVW78IU5Zzea7ccU/edit?usp=sharing)
