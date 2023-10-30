@@ -2,14 +2,16 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
-		<title>Formulaire</title>
+		<title>Accueil</title>
+		<link rel="icon" type="image/x-icon" href="./images/logo.ico">
 		<link rel="stylesheet" href="./styles/index.css" />
 		<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
 	</head>
 	<body>
-		<div class="navbar">
-			<img class="logo" src="./images/logo.png"/>
-			<nav>	
+		<header>
+			<div class="navbar">
+			<a class="logo" href="./index.html"><img src="./images/logo.png"/></a>
+			<nav class="top">	
 				<a class="ici" href="./index.html">Acceuil</a>
 				<a href="./campus.html">Campus</a>
 				<a href="./equipe.html">Equipe</a>
@@ -18,12 +20,33 @@
 				<a href="./inscription.html">Inscription</a>
 			</nav>
 		</div>
+		</header>
+		
+		<div id="mainvid">
+			<video width="100%" autoplay loop>
+				<source src="./media/studio.mp4" type="video/mp4">s
+		  		Your browser does not support the video tag.
+		  </video>
+		  <div class="overlay"><p>American Music School of Toulouse</p></div>
+		</div>
+
 		<footer>
-			<p>testeteerstfzthdftsyqdfuyfgvyuqsg</p>
-			<address>
-				<p>IUT D'Orsay - 13 avenue des Sciences - 91190 Gif-sur-Yvette | FRANCE</p>
-				<p><a href="https://www.iut-orsay.universite-paris-saclay.fr/">site web</a></p>
-			</address>
+			<aside>
+				<img src="./images/logo.png"/><br>
+				<b>American Music School of Toulouse</b><br><br>
+				<p>Établissement d'enseignement supérieur privé technique</p>
+			</aside>
+			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9717.980758357198!2d1.4375403200151755!3d43.60291154353274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebc9a13f02be3%3A0x1258fa760f3ec881!2sSchool%20Of%20Music%20Toulouse%20Academy%20Key%20Do%20R%C3%A9%20%C3%80%20Toulouse!5e0!3m2!1sen!2sfr!4v1698677183031!5m2!1sen!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="bottom">	
+				<div><img id="phone" src="./images/phone.png"/><a href="tel: +33 1 52 48 78 94">01 52 48 78 94</a></div>
+				<div><img id="email" src="./images/email.png"/><a href="mailto: info@amst.fr">info@amst.fr</a></div>
+				<div><img id="address" src="./images/address.png"/><a href="https://maps.app.goo.gl/8o6CwfRNEVvdbp2s6">13 avenue des Sciences<br>91190 Gif-sur-Yvette</a></div>
+			</div>
+			<aside>
+				<b>Ash Merienne & Abdallah Syd</b><br><br>
+				<a href="">Lien vers le rapport (pdf)</a><br>
+				<a href="">Lien vers le rapport (texte)</a>
+			</aside>
 		</footer>
 	</body>
 	
