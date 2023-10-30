@@ -10,11 +10,19 @@ body {
 	background-color : #fffaebff;
 }
 
+main {
+	margin-top: 100px;
+}
+
 /*---------------HEADER-----------------*/
 
-.navbar {
-	border-bottom : 1.5px solid black;
-	overflow : auto;
+header {
+	position: fixed;
+	top: 0;
+    left: 0;
+	width: 100%;
+	background-color: #FECEA8;
+	z-index: 100;
 }
 
 .navbar .logo img {
@@ -64,31 +72,19 @@ nav a.ici{
 
 #mainvid {
 	position: relative;
-	width: 80%;
-	margin:  2rem 10% 2rem 10%;
+	width: 90%;
+	margin:  2rem 5% 2rem 5%;
 }
 
 #mainvid video {
-   filter: grayscale(80%);
-}
-
-#mainvid .overlay {
-	position: absolute;
-	bottom: 0;
-}
-
-#mainvid .overlay p {
-	color: white;
-	font-size: 4rem;
-	margin: 0 0 1rem 5rem
+   filter: grayscale(60%);
 }
 
 
 /*---------------FOOTER-----------------*/
 
 footer {
-	width : 100%;
-	border-top : 1.5px solid black;
+	background-color: #FECEA8;
 	margin : 1rem 0 0 0;
 	padding : 0.5rem;
 	position : relative;
@@ -156,8 +152,8 @@ div.bottom div {
 }
 
 div.bottom div:nth-child(1) {
-	border-color: #FECEA8;
-	background-color: #FECEA8;
+	border-color: #fffaebff;
+	background-color: #fffaebff;
 }
 
 div.bottom div:nth-child(2) {
