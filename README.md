@@ -12,6 +12,9 @@ Ash Merienne & Abdallah Syd
 [Icône Tel (footer)](https://www.iconfinder.com/icons/1608790/phone_icon)
 [Icône Addresse (footer)](https://www.flaticon.com/fr/icone-gratuite/place_450016)
 [Icône Email (footer)](https://www.flaticon.com/fr/icone-gratuite/enveloppe_222294)
+[Photo de Studio](https://www.davout.com/les-studios/un-home-studio-peut-il-suffire-pour-creer-de-la-musique/)
+[Thom Yorke avec micro](https://uproxx.com/indie/radiohead-thom-yorke-5-17-peaky-blinders/)
+
 
 ### Vidéos
 [Vidéo de la page principale](https://www.pexels.com/video/advanced-equipment-used-in-a-home-studio-5657831/)

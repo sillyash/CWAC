@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+main h1 {
+	display: block;
+	text-align: center;
+	width: 20%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 4rem;
+	font-size: 5rem;
+}
+
+main h2 {
+	display: block;
+	text-align: center;
+	width: 20%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 4rem;
+	font-size: 3rem;
+}
+
+
+/*---------------MEDIA QUERIES----------------*/
+
+@media only screen and (max-width: 900px) {
+	main > h1 { font-size: 4rem}
+}
+
+@media only screen and (max-width: 800px) {
+    main > h1 { font-size: 3rem}
+}
+
+@media only screen and (max-width: 700px) {
+    main > h1 { font-size: 2rem}
+}
