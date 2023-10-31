@@ -13,11 +13,51 @@ main h1 {
 main h2 {
 	display: block;
 	text-align: center;
-	width: 20%;
+	width: 100%;
 	margin-left: auto;
     margin-right: auto;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
+	margin-top: 3rem;
 	font-size: 3rem;
+	font-weight: bold;
+}
+
+main h3 {
+	display: block;
+	text-align: center;
+	width: auto;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+main .grid {
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	row-gap: 100px;
+}
+
+main .grid-item {
+	padding: 1.5rem;
+	align-items: center;
+	justify-content: center;
+}
+
+#tarifs {
+	grid-column-start: 1fr 1fr;
+}
+
+#tarifs > h2 {
+	grid-column-start: span 2;
 }
 
 

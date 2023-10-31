@@ -121,14 +121,6 @@ main .grid-item {
 	grid-column-start: span 2;
 }
 
-#tarifs {
-	grid-column-start: 1fr 1fr;
-}
-
-#tarifs > h2 {
-	grid-column-start: span 2;
-}
-
 
 /*---------------MEDIA QUERIES----------------*/
 
