@@ -4,13 +4,11 @@
 	display: block;
 	margin:2rem;
 	width: 15%;
-	position: relative;
-	top: -10px;
 }
 
 main div h1 {
 	text-align: center;
-	font-size: 5rem;
+	font-size: 7rem;
 	margin: 2rem;
 	text-align: center;
 }
