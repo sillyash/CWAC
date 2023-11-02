@@ -119,6 +119,40 @@ main .grid-item {
 	grid-column-start: span 2;
 }
 
+#equipeflex {
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	margin: 0;
+	padding: 1rem;
+}
+
+#equipeflex::-webkit-scrollbar {
+	height: 17px;
+	border-left: 1rem solid transparent;
+	border-right: 1rem solid transparent;
+}
+
+#equipeflex::-webkit-scrollbar-track {
+	background-color: #FF847C;
+	border-radius: 1rem;
+}
+
+#equipeflex::-webkit-scrollbar-thumb {
+	background-color: #E84A5F;
+	border-radius: 1rem;
+}
+
+#equipeflex img {
+	height: 400px;
+	margin: 2rem;
+	border-radius: 2rem;
+}
+
+#equipeflex > div {
+	margin: 1.5rem;
+}
+
 
 /*---------------MEDIA QUERIES----------------*/
 
