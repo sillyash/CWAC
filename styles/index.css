@@ -103,6 +103,11 @@ main .grid-item {
 	text-align: center;
 }
 
+#desc_generale p {
+	margin: 1rem 10rem;
+	font-size: 1.4rem;
+}
+
 #argumentation {
 	grid-column-start: 1fr 1fr 1fr;
 }
