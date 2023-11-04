@@ -131,10 +131,15 @@ main .grid-item {
 #desc_generale p {
 	padding: 5rem;
 	margin: 2rem;
-	/* gradient */
-	background: linear-gradient(80deg, rgba(255,132,124,1) 0%, rgba(232,74,95,1) 100%);
+	/* couleur de fond */
+	background: #F4CEA5;
 	/* bords arrondis */
-	border-radius: 20px;
+	border-radius: 25px;
+}
+
+#desc_generale p:nth-child(2) {
+	/* couleur de fond */
+	background: #A8B3B4;
 }
 
 #desc_generale a {
@@ -164,6 +169,7 @@ main .grid-item {
 
 /* grille 3 */
 #campus {
+	padding-bottom: 3rem;
 	/*  deux colonnes, taille automatique 
 	    en fonction du contenu */
 	grid-template-columns: auto auto;
@@ -175,10 +181,22 @@ main .grid-item {
 	grid-column-start: span 2;
 }
 
+#campus article {
+	padding: 0 3rem 3rem 3rem;
+	/* couleur de fond */
+	background: rgba(235, 170, 152, 1);
+	/* arrondi */
+	border-radius: 25px;
+}
+
+
 /*---Equipe Pédagogique---*/
 #equipeflex {
-	margin: 0;
+	width: 90%;
 	padding: 1rem;
+	/* centré */
+	margin-right: auto;
+	margin-left: auto;
 	/*Flex horizontal*/
 	display: flex;
 	flex-direction: row;
@@ -186,6 +204,10 @@ main .grid-item {
 	overflow-x: scroll;
 	/* On centre les éléments */
 	align-items: center;
+	/* couleur de fond */
+	background: rgba(205, 217, 215, 0.7);
+	/* arrondi */
+	border-radius: 25px;
 }
 
 /* Scrollbar */
@@ -197,6 +219,8 @@ main .grid-item {
 /* piste de défilement */
 #equipeflex::-webkit-scrollbar-track {
 	background-color: #FF847C;
+	/* bords arrondis */
+	border-radius: 1rem;
 }
 
 /* zone/pouce de défilement */
@@ -225,6 +249,9 @@ main .grid-item {
 	font-weight: bold;
 	/* centré */
 	text-align: center;
+	/*  on enlève le background à 
+		cause de la transparence */
+	background: none;
 }
 
 #equipeflex div p {
