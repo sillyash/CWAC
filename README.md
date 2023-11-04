@@ -15,7 +15,8 @@ Ash Merienne & Abdallah Syd
 [Photo de Studio](https://www.davout.com/les-studios/un-home-studio-peut-il-suffire-pour-creer-de-la-musique/) \
 [Thom Yorke avec micro](https://uproxx.com/indie/radiohead-thom-yorke-5-17-peaky-blinders/) \
 [Etablissement vu de l'extérieur](https://fr.wikipedia.org/wiki/Conservatoire_%C3%A0_rayonnement_r%C3%A9gional_de_Strasbourg) \
-[Thomas Bangalter](https://www.elle.fr/Loisirs/Musique/News/Que-vaut-le-premier-single-de-l-album-solo-de-Thomas-Bangalter-ancien-membre-des-Daft-Punk-4093414)
+[Thomas Bangalter](https://www.elle.fr/Loisirs/Musique/News/Que-vaut-le-premier-single-de-l-album-solo-de-Thomas-Bangalter-ancien-membre-des-Daft-Punk-4093414) \
+[Flèche en bas de page](https://uxwing.com/round-arrow-top-icon/)
 
 #### Portraits pour l'équipe pédagogique
 ["Rachel Bach"](https://unsplash.com/fr/photos/donna-che-indossa-una-camicia-nera-a-girocollo-3TLl_97HNJo) \

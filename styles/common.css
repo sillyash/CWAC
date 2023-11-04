@@ -23,11 +23,26 @@ body {
 }
 
 main {
-	display: block;
+	/* on met de la marge avec le header et footer */
 	margin-top: 100px;
-	scroll-behavior: smooth; /* anchor links will scroll smoothly */
+	margin-bottom: 100px;
 }
 
+/* séparateur de contenu (vague noire) */
+.separator {
+	/* taille */
+	width: 100%;
+	height: 50px;
+}
+
+/* bouton pour remonter en bas de page */
+.back-to-top img {
+	/* centré */
+	margin-left: calc(50% - 40px);
+	margin-right: calc(50% - 40px);
+	/* taille */
+	width: 80px;
+}
 
 /*---------------HEADER-----------------*/
 header {
@@ -36,6 +51,12 @@ header {
 	width: 100%;
 	background-color: #FFFAEB;
 	z-index: 100; /* on the foreground */
+}
+
+.navbar .logo {
+	display: block;
+	margin:2rem;
+	width: 15%;
 }
 
 .navbar .logo img {
@@ -118,10 +139,11 @@ footer a {
 	background-color: inherit;
 	color: black;
 	text-decoration: none;
+	transition: 0.4s;
 }
 
 footer a:hover {
-	color: steelblue;
+	color: white;
 	transition: 0.4s;
 }
 
@@ -167,10 +189,11 @@ div.bottom div a {
 	color: black;
 	text-decoration: none;
 	align-self: center;
+	transition: 0.4s;
 }
 
 div.bottom div a:hover {
-	color: steelblue;
+	color: white;
 	transition: 0.4s;
 }
 
@@ -205,3 +228,21 @@ div.bottom div img {
 
 /*---------------MEDIA QUERIES----------------*/
 
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+    and (orientation: landscape) {
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) 
+    and (orientation: portrait) {
+}

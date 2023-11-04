@@ -1,70 +1,64 @@
 @charset "utf-8";
 
-.logo {
-	display: block;
-	margin:2rem;
-	width: 15%;
-}
+
+/*---Titre et logo---*/
 
 main div h1 {
-	text-align: center;
-	font-size: 7rem;
 	margin: 2rem;
+	/* centré */
 	text-align: center;
+	/* taille de la police */
+	font-size: 7rem;
 }
 
-#title {
-	width: 100%;
+#page-title {
+	/* flex horizontal */
 	display: flex;
 	flex-direction: row;
+	/* éléments et contenu centré */
 	align-content: center;
 	align-items: center;
 	justify-content: center;
 }
 
-main > h1 {
-	display: block;
-	text-align: center;
-	width: 100%;
-	margin-left: auto;
-    margin-right: auto;
-	margin-bottom: 4rem;
-	font-size: 5rem;
-	font-weight: bold;
-}
 
+/*---Sous-titres---*/
 main h2 {
-	display: block;
-	text-align: center;
-	width: 100%;
-	margin-left: auto;
-    margin-right: auto;
 	margin-bottom: 2rem;
 	margin-top: 3rem;
-	font-size: 3rem;
+	/* centrer */
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	/* taille et style */
+	font-size: 4rem;
 	font-weight: bold;
 }
 
 main h3 {
-	display: block;
-	text-align: center;
-	width: auto;
-	margin-left: auto;
-    margin-right: auto;
 	margin-bottom: 2rem;
 	margin-top: 3rem;
+	/* centrer */
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	/* taille et style */
 	font-size: 2.5rem;
 	font-weight: 500;
 }
 
+
+/*---Vidéo---*/
 #mainvid {
+	margin-bottom: 4rem;
+	margin-top: 5rem;
+	/* centrer */
 	margin-left: auto;
     margin-right: auto;
-	margin-bottom: 4rem;
+	/* Instructions de l'hébergeur pour la vidéo */
 	position: relative;
 	width: 100%;
 	height: 0px;
-	position: relative;
 	padding-bottom: 58%;
 }
 
@@ -72,125 +66,165 @@ main h3 {
 	filter: grayscale(60%);
 }
 
+
+/* marge pour chaque section par défault */
+section {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
+
+/*---Grilles---*/
 main .grid {
-	margin-top: 2rem;
-	margin-bottom: 3rem;
-	margin-left: auto;
-	margin-right: auto;
 	width: 95%;
 	display: grid;
+	/* centré */
+	margin-left: auto;
+	margin-right: auto;
+	/* centrer les éléments et le contenu */
 	justify-content: center;
 	align-items: center;
+	/* écart entre les lignes */
 	row-gap: 100px;
 }
 
+/* Pour les items des grilles */
 main .grid-item {
 	padding: 1.5rem;
+	/* centrer le contenu dans la cellule */
+	justify-self: center;
 	align-items: center;
 	justify-content: center;
 }
 
+/* Pour les images des grilles */
 .grid img {
+	/*  pas de marge ou de padding
+	    pour ne pas perdre d'espace */
 	padding: 0;
 	margin: 0;
+	/* arrondir les bords */
 	border-radius: 15px;
-	justify-self: center;
 }
 
+/* pour le texte dans les grilles */
 .grid p {
+	/* taille et style de la police */
 	font-size: 1.4rem;
 	font-weight: normal;
 	text-align: center;
 }
 
+
+/* grille 1 */
 #desc_generale {
+	/*  deux colonnes, taille automatique 
+	    en fonction du contenu */
 	grid-template-columns: auto auto;
 }
 
+/* le titre fait toute la largeur de la grille */
 #desc_generale > h2 {
 	grid-column-start: span 2;
 }
 
 #desc_generale p {
-	text-align: center;
-	background: rgb(255,132,124);
-	background: linear-gradient(80deg, rgba(255,132,124,1) 0%, rgba(232,74,95,1) 100%);
-	border-radius: 20px;
 	padding: 5rem;
 	margin: 2rem;
+	/* gradient */
+	background: linear-gradient(80deg, rgba(255,132,124,1) 0%, rgba(232,74,95,1) 100%);
+	/* bords arrondis */
+	border-radius: 20px;
 }
 
 #desc_generale a {
-	background: none;
+	/* style et couleur des liens */
 	text-decoration: none;
 	color: white;
 	transition: 0.4s;
 }
 
 #desc_generale a:hover {
+	/* style et couleur des liens survolés */
 	color: steelblue;
 	transition: 0.4s;
 }
 
+
+/* grille 2 */
 #argumentation {
+	/* 3 colonnes, unité fractionnelle */
 	grid-column-start: 1fr 1fr 1fr;
 }
 
+/* le titre fait toute la largeur de la grille */
 #argumentation > h2 {
 	grid-column-start: span 3;
 }
 
+/* grille 3 */
 #campus {
+	/*  deux colonnes, taille automatique 
+	    en fonction du contenu */
 	grid-template-columns: auto auto;
 }
 
+/* le titre fait toute la largeur de la grille */
 #campus > h2 {
+	/* 2 colonnes, unité fractionnelle */
 	grid-column-start: span 2;
 }
 
+/*---Equipe Pédagogique---*/
 #equipeflex {
-	display: flex;
-	flex-direction: row;
-	overflow-x: scroll;
-	justify-content: left;
-	align-items: center;
 	margin: 0;
 	padding: 1rem;
+	/*Flex horizontal*/
+	display: flex;
+	flex-direction: row;
+	/*Le débordement horizontal est scrollable*/
+	overflow-x: scroll;
+	/* On centre les éléments */
+	align-items: center;
 }
 
+/* Scrollbar */
 #equipeflex::-webkit-scrollbar {
-	height: 17px;
-	border-left: 1rem solid transparent;
-	border-right: 1rem solid transparent;
+	/* taille de la barre */
+	height: 15px;
 }
 
+/* piste de défilement */
 #equipeflex::-webkit-scrollbar-track {
 	background-color: #FF847C;
-	border-radius: 1rem;
 }
 
+/* zone/pouce de défilement */
 #equipeflex::-webkit-scrollbar-thumb {
 	background-color: #E84A5F;
+	/* bords arrondis */
 	border-radius: 1rem;
 }
 
 #equipeflex img {
-	height: 400px;
 	margin: 2rem;
 	border-radius: 2rem;
+	/*  même taille pour toutes les images
+	    (toutes de ratio 5:4) */
+	height: 400px;
 }
 
 #equipeflex > div {
 	margin: 1.5rem;
-
 }
 
 #equipeflex > p {
+	margin: 1rem 2.5rem;
+	/* taille et style du texte */
 	font-size: 4rem;
 	font-weight: bold;
+	/* centré */
 	text-align: center;
-	background: none;
-	margin: 1rem 2.5rem;
 }
 
 #equipeflex div p {
@@ -200,17 +234,33 @@ main .grid-item {
 	background: none;
 }
 
-
 /*---------------MEDIA QUERIES----------------*/
 
-@media only screen and (max-width: 900px) {
-	main > h1 { font-size: 4rem}
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+	
 }
 
-@media only screen and (max-width: 800px) {
-    main > h1 { font-size: 3rem}
+/* For Tablet View */
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+		img {
+			width: calc(100% / 2);
+		}
 }
 
-@media only screen and (max-width: 700px) {
-    main > h1 { font-size: 2rem}
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+    and (orientation: landscape) {
+		img {
+			width: calc(100% / 2);
+		}
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) 
+    and (orientation: portrait) {
+		img {
+			width: calc(100% / 3);
+		}
 }
