@@ -17,8 +17,8 @@ body {
 	background-color: grey; /* blend color */
 	background-image : url('../images/background.jpg'); /* image */
 	background-image: center center fixed;
-	background-size : cover; /* cover all background */
-	background-repeat : no-repeat;
+	background-size : contain; /* cover all background */
+	background-repeat : repeat;
 	background-blend-mode: screen; /* blend img and color */
 }
 
