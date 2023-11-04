@@ -2,15 +2,6 @@
 
 
 /*---Titre et logo---*/
-
-main div h1 {
-	margin: 2rem;
-	/* centré */
-	text-align: center;
-	/* taille de la police */
-	font-size: 7rem;
-}
-
 #page-title {
 	/* flex horizontal */
 	display: flex;
@@ -19,6 +10,19 @@ main div h1 {
 	align-content: center;
 	align-items: center;
 	justify-content: center;
+}
+
+#page-title img {
+	width: 15%;
+}
+
+#page-title h1 {
+	margin: 2rem;
+	/* centré */
+	text-align: center;
+	padding-top: 2rem;
+	/* taille de la police */
+	font-size: 7rem;
 }
 
 
@@ -47,6 +51,12 @@ main h3 {
 	font-weight: 500;
 }
 
+/* marge pour chaque section par défault */
+section {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
 
 /*---Vidéo---*/
 #mainvid {
@@ -63,16 +73,8 @@ main h3 {
 }
 
 #mainvid iframe {
-	filter: grayscale(60%);
+	filter: grayscale(40%);
 }
-
-
-/* marge pour chaque section par défault */
-section {
-	margin-top: 6rem;
-	margin-bottom: 6rem;
-}
-
 
 /*---Grilles---*/
 main .grid {
@@ -167,6 +169,54 @@ main .grid-item {
 	grid-column-start: span 3;
 }
 
+#argumentation article {
+	margin: 2rem;
+	padding: 0 3rem 2rem 3rem;
+	/* même hauteur pour tous les articles */
+	height: 550px;
+	/* arrondi */
+	border-radius: 15px;
+	/* centré verticalement */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#argumentation h2 {
+	margin: 0;
+}
+
+#argumentation a {
+	display: block;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+	transition: 0.4s;
+}
+
+#argumentation a:hover {
+	color: #E84A5F;
+	transition: 0.4s;
+}
+
+#argumentation article:nth-child(2) {
+	/* couleur de fond */
+	background: #E8C095;
+}
+
+#argumentation article:nth-child(3) {
+	/* couleur de fond */
+	background: #A8B3B4;
+}
+
+#argumentation article:nth-child(4) {
+	/* couleur de fond */
+	background: #EBAA98;
+}
+
 /* grille 3 */
 #campus {
 	padding-bottom: 3rem;
@@ -242,6 +292,7 @@ main .grid-item {
 	margin: 1.5rem;
 }
 
+/* sélectionne les "." entre les div */
 #equipeflex > p {
 	margin: 1rem 2.5rem;
 	/* taille et style du texte */
@@ -249,17 +300,16 @@ main .grid-item {
 	font-weight: bold;
 	/* centré */
 	text-align: center;
-	/*  on enlève le background à 
-		cause de la transparence */
-	background: none;
 }
 
 #equipeflex div p {
+	/* taille et style du texte */
 	font-size: 1.4rem;
 	font-weight: normal;
 	text-align: center;
-	background: none;
 }
+
+
 
 /*---------------MEDIA QUERIES----------------*/
 
