@@ -14,12 +14,13 @@ html {
 }
 
 body {
-	background-color: grey; /* blend color */
+	background-color: grey; /* couleur pour blend */
 	background-image : url('../images/background.jpg'); /* image */
 	background-image: center center fixed;
-	background-size : contain; /* cover all background */
-	background-repeat : repeat;
+	background-size : contain; /* couvrir toute la page */
+	background-repeat : repeat; /* répéter l'image si besoin */
 	background-blend-mode: screen; /* blend img and color */
+	background-attachment: fixed; /* le fond reste immobile lors du scroll */
 }
 
 main {
