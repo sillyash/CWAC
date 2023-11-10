@@ -57,17 +57,21 @@ header {
 .navbar .logo {
 	display: block;
 	margin:2rem;
+	/* taille par rapport à navbar */
 	width: 15%;
 }
 
 .navbar .logo img {
-	width : 70px;
-	float : left;
+	/* taille de l'image */
+	width : 65px;
 }
 
 .navbar .logo {
-	width : 70px;
 	margin : 6.4px 6.4px 6.4px 4%;
+	/*  on met le lien à la même taille que l'image 
+		pour que le lien couvre toute l'image */
+	width : 65px;
+	/* on met à gauche */
 	float : left;
 }
 

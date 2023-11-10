@@ -3,6 +3,7 @@
 
 /*---Titre et logo---*/
 #page-title {
+	margin-top: 10rem;
 	/* flex horizontal */
 	display: flex;
 	flex-direction: row;
@@ -67,7 +68,7 @@ section {
     margin-right: auto;
 	/* Instructions de l'hébergeur pour la vidéo */
 	position: relative;
-	width: 100%;
+	width: 85%;
 	height: 0px;
 	padding-bottom: 58%;
 }
@@ -184,7 +185,7 @@ main .grid-item {
 }
 
 #argumentation h2 {
-	margin: 0;
+	margin: 1rem 0 0 0;
 }
 
 #argumentation a {
@@ -237,6 +238,10 @@ main .grid-item {
 	background: rgba(235, 170, 152, 1);
 	/* arrondi */
 	border-radius: 25px;
+}
+
+#campus article:nth-child(2) {
+	background-color: #CDD9D8;
 }
 
 
