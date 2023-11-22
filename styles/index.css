@@ -118,6 +118,16 @@ main .grid-item {
 	text-align: center;
 }
 
+/* Texte sur image */
+.over-image {
+	/* 	pour mettre le texte par dessus l'image,
+		 on met en relatif et on décale */
+	position: relative;
+	bottom: 2.3rem;
+	left: 6rem;
+	font-size: 1.5rem;
+	color: white;
+}
 
 /* grille 1 */
 #desc_generale {
@@ -138,6 +148,11 @@ main .grid-item {
 	background: #F4CEA5;
 	/* bords arrondis */
 	border-radius: 25px;
+}
+
+#bangalter {
+	display: block;
+	margin: 0 auto;
 }
 
 #desc_generale p:nth-child(2) {
@@ -186,6 +201,11 @@ main .grid-item {
 
 #argumentation h2 {
 	margin: 1rem 0 0 0;
+}
+
+#argumentation h3 {
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 #argumentation a {
@@ -318,31 +338,40 @@ main .grid-item {
 
 /*---------------MEDIA QUERIES----------------*/
 
-/* For Desktop View */
-@media screen and (min-width: 1024px) {
-	
-}
-
-/* For Tablet View */
-@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px) {
-		img {
-			width: calc(100% / 2);
-		}
-}
-
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px) 
-    and (orientation: landscape) {
-		img {
-			width: calc(100% / 2);
-		}
-}
-
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px) 
-    and (orientation: portrait) {
-		img {
-			width: calc(100% / 3);
-		}
+@media (min-width: 350px) and (max-width: 500px) {
+	#page-title h1 {font-size: 4rem;}
+	main h2 {font-size: 2rem;}
+	#argumentation article {
+		height: 450px;
+	}
+	main .grid p {
+		font-size: 1rem;
+		padding: 1rem 0.5rem 0.5rem 0.5rem !important;
+		margin: 0.5rem !important;
+	}
+	main .grid a {
+		font-size: 1rem !important;
+	}
+	main .grid {
+		grid-template-columns: auto !important;
+		row-gap: 20px;
+	}
+	main .grid h2, h3, a {
+		grid-column-start: span 1 !important;
+		margin: 1rem 0.3rem 0.5rem 0.3rem !important;
+	}
+	main .grid h2 {
+		font-size: 1.6rem !important;
+	}
+	main .grid h3 {
+		font-size: 1.3rem !important;
+		font-weight: bold;
+	}
+	#argumentation a {
+		font-size: 1.5rem !important;
+	}
+	main .grid .grid-item {
+		padding: 0.5rem !important;
+	}
+	.over-image {font-size: 1rem;}
 }
