@@ -233,9 +233,15 @@ div.bottom div img {
 
 /*---------------MEDIA QUERIES----------------*/
 
-/* Maximum width */
-@media (max-width: 500px) {
+@media (max-width: 545px) {
 	.navbar nav {height : 125px;}
-	.navbar a {font-size: 1.1rem;}
-	.separator {height: 20px;}
-  }
+	
+}
+
+@media (max-width: 700px) {
+	#map {display: none;}
+	footer > section, div.bottom {margin: 0.5rem;}
+	footer > section {width: 35%;}
+	div.bottom {display: none;}
+	.separator {height: 15px;}
+}

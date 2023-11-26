@@ -338,20 +338,17 @@ main .grid-item {
 
 /*---------------MEDIA QUERIES----------------*/
 
-@media (min-width: 350px) and (max-width: 500px) {
+@media (min-width: 350px) and (max-width: 700px) {
 	#page-title h1 {font-size: 4rem;}
 	main h2 {font-size: 2rem;}
-	#argumentation article {
-		height: 450px;
-	}
+	#desc_generale > p {padding: 1.5rem !important;}
+	#argumentation article {height: 450px;}
 	main .grid p {
 		font-size: 1rem;
-		padding: 1rem 0.5rem 0.5rem 0.5rem !important;
+		padding: 0.5rem !important;
 		margin: 0.5rem !important;
 	}
-	main .grid a {
-		font-size: 1rem !important;
-	}
+	main .grid a {font-size: 1rem !important;}
 	main .grid {
 		grid-template-columns: auto !important;
 		row-gap: 20px;
@@ -360,18 +357,17 @@ main .grid-item {
 		grid-column-start: span 1 !important;
 		margin: 1rem 0.3rem 0.5rem 0.3rem !important;
 	}
-	main .grid h2 {
-		font-size: 1.6rem !important;
-	}
+	main .grid h2 {font-size: 1.6rem !important;}
 	main .grid h3 {
 		font-size: 1.3rem !important;
 		font-weight: bold;
 	}
-	#argumentation a {
-		font-size: 1.5rem !important;
-	}
-	main .grid .grid-item {
-		padding: 0.5rem !important;
-	}
+	#argumentation a {font-size: 1.5rem !important;}
+	main .grid .grid-item {padding: 0.5rem !important;}
 	.over-image {font-size: 1rem;}
+	#equipeflex h3 {font-size: 1.5rem;}
+	#equipeflex > div {margin: 0.5rem;}
+	#equipeflex div p {font-size: 1rem; margin: 0.5rem;}
+	#equipeflex > p {font-size: 2rem; margin: 0.5rem;}
+	#equipeflex img {height: 200px; margin: 0.5rem;}
 }
