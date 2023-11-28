@@ -142,6 +142,7 @@ main .grid-item {
 }
 
 #desc_generale p {
+	max-width: 70%;
 	padding: 5rem;
 	margin: 2rem;
 	/* couleur de fond */
@@ -187,6 +188,7 @@ main .grid-item {
 
 #argumentation article {
 	margin: 2rem;
+	max-width: 70%;
 	padding: 0 3rem 2rem 3rem;
 	/* même hauteur pour tous les articles */
 	height: 600px;
@@ -253,6 +255,7 @@ main .grid-item {
 }
 
 #campus article {
+	max-width: 80%;
 	padding: 0 3rem 3rem 3rem;
 	/* couleur de fond */
 	background: rgba(235, 170, 152, 1);
