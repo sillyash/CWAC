@@ -38,6 +38,7 @@ main {
 
 /* bouton pour remonter en bas de page */
 .back-to-top img {
+	margin-top: 30px;
 	/* centré */
 	margin-left: calc(50% - 40px);
 	margin-right: calc(50% - 40px);
@@ -160,7 +161,11 @@ footer a:hover {
 }
 
 @media (max-width: 700px) {
-	footer > section, div.bottom {margin: 0.5rem;}
 	footer > section {width: 35%;}
 	.separator {height: 15px;}
+}
+
+@media ((min-width: 700px) and (max-width: 1200px)) {
+	footer > section {width: 35%;}
+	.separator {height: 25px;}
 }

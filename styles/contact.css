@@ -123,15 +123,16 @@ fieldset {
 }
 
 div.bottom {
-	margin: 2rem 5% 2rem 5%;
-	width : 90%;
-	display : block;
+	margin: 3rem;
+	display : flex;
+	flex-direction: column;
+	justify-self: center;
 	align-items : center;
 	justify-content : center;
 }
 
 div.bottom div {
-	width : 250px;
+	width: 300px;
 	margin: 1rem 0;
 	display: flex;
 	padding: 0.6rem 0 0.6rem 0;
@@ -155,6 +156,7 @@ div.bottom div:nth-child(3) {
 }
 
 div.bottom div a {
+	margin: 0 0.5rem;
 	background-color: inherit;
 	color: black;
 	text-decoration: none;
@@ -182,7 +184,7 @@ div.bottom div img {
 }
 
 #address {
-	width: 30px;
+	width: 35px;
 	margin-left: 5px;
 }
 
