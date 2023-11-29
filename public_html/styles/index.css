@@ -112,7 +112,7 @@ main .grid-item {
 	margin: 0;
 	/* arrondir les bords */
 	border-radius: 15px;
-	max-width: 100%;
+	max-width: 80%;
 }
 
 /* pour le texte dans les grilles */
