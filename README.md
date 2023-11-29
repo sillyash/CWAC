@@ -18,6 +18,7 @@ Ash Merienne & Abdallah Syd
 - [Thomas Bangalter](https://www.elle.fr/Loisirs/Musique/News/Que-vaut-le-premier-single-de-l-album-solo-de-Thomas-Bangalter-ancien-membre-des-Daft-Punk-4093414)
 - [Flèche en bas de page](https://uxwing.com/round-arrow-top-icon/)
 - [Faux Sponsors (footer)](https://image.shutterstock.com/image-photo/image-260nw-760151383.jpg)
+- Toute les images de formations sont libres de droit et proviennent du site xeb pexel.
 
 #### Portraits pour l'équipe pédagogique
 **[License](https://unsplash.com/fr/licence)**
