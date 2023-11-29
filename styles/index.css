@@ -26,6 +26,10 @@
 	font-size: 7rem;
 }
 
+nav a.ici{
+	color : #e84a5f;
+}
+
 
 /*---Sous-titres---*/
 main h2 {
@@ -342,6 +346,7 @@ main .grid-item {
 		margin-left: 50%;
 		margin-right: 50%;
 		max-width: 10%;
+		display: flex;
 	}
 
 

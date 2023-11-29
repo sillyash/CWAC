@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+nav a.ici {
+	color: #e84a5f;
+	transition: 0.4s;
+}
 
 
 main h1 {

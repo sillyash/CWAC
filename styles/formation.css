@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 
+a.ici {
+	color: #e84a5f;
+	transition: 0.4s;
+}
 
 main h1 {
 	display: block;
