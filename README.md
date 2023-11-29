@@ -7,7 +7,7 @@ Ash Merienne & Abdallah Syd
 ### Inspirations
 - [Palette CSS](https://palettes.shecodes.io/palettes/201#palette)
 
-### Images
+### Images licensiées/libres de droit
 - [Logo (attribution en pied de page)](https://www.vecteezy.com/vector-art/6559143-music-note-logo-vector-template)
 - [Icône Tel (footer)](https://www.iconfinder.com/icons/1608790/phone_icon) · [License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 - [Icône Addresse (attribution en pied de page)](https://www.flaticon.com/fr/icone-gratuite/place_450016)
@@ -17,8 +17,11 @@ Ash Merienne & Abdallah Syd
 - [Etablissement vu de l'extérieur](https://fr.wikipedia.org/wiki/Conservatoire_%C3%A0_rayonnement_r%C3%A9gional_de_Strasbourg)
 - [Thomas Bangalter](https://www.elle.fr/Loisirs/Musique/News/Que-vaut-le-premier-single-de-l-album-solo-de-Thomas-Bangalter-ancien-membre-des-Daft-Punk-4093414)
 - [Flèche en bas de page](https://uxwing.com/round-arrow-top-icon/)
-- [Faux Sponsors (footer)](https://image.shutterstock.com/image-photo/image-260nw-760151383.jpg)
-- Toute les images de la page formation sont libres de droit et proviennent du site web pexel.
+
+### Images Copyrigthted
+- [Sponsors](https://medium.com/giglue/top-10-musical-instruments-companies-in-the-world-177fbbe9760a)
+- [Concert](https://www.google.com/url?sa=i&url=https%3A%2F%2Felectro-news.eu%2Ftoulouse-parc-dancefloor-techno-samedi-2021%2F&psig=AOvVaw0PJ7mcUc2cVrQgjqZUFcUt&ust=1701343690207000&source=images&cd=vfe&opi=89978449&ved=0CBEQjhxqFwoTCKDekKiN6YIDFQAAAAAdAAAAABAD)
+- [Locaux Ableton](https://www.ableton.com/en/ableton-university-tour-2015/)
 
 #### Portraits pour l'équipe pédagogique
 **[License](https://unsplash.com/fr/licence)**

@@ -163,24 +163,19 @@ footer a:hover {
 @media (max-width: 545px) {
 	.navbar nav {height : 125px;}
 	footer > img {
-		order: 3; 
-		max-width: 70%; 
-		margin: 1rem calc(100% - 75%);
+		order: 3;
 	}
 	footer section {
 		width: 29%;
-		
 		margin: 1rem;
 	}
 }
 
 @media ((min-width: 546px) and (max-width: 800px)) {
 	footer > section {width: 35%;}
-	.separator {height: 15px;}
+	.separator {he<img id="sponsors" src="./images/fakeSponsors.jpg">ight: 15px;}
 	footer > img {
 		order: 3;
-		max-width: 50%; 
-		margin: 1rem calc(100% - 75%);
 	}
 }
 
@@ -189,6 +184,5 @@ footer a:hover {
 	.separator {height: 25px;}
 	footer > img {
 		order: 3;
-		margin: 1rem calc(100% - 75%);
 	}
 }
