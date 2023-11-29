@@ -116,10 +116,11 @@ fieldset {
 
 #map {
 	margin: 2rem 15%;
-	border: 4px solid #FECEA8;
+	border: 10px solid #FECEA8;
 	border-radius: 20px;
 	width: 70%;
 	height: 500px;
+
 }
 
 div.bottom {
@@ -153,6 +154,7 @@ div.bottom div:nth-child(2) {
 div.bottom div:nth-child(3) {
 	border-color: #E84A5F;
 	background-color: #E84A5F;
+	
 }
 
 div.bottom div a {
@@ -215,12 +217,21 @@ div.bottom div img {
 		display:block;
 		font-size:18px;
 	}
-
+	
 	#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"],  #contact textarea {
 		padding:8px;
 		font-size: 14px;
 	}
 	
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.container {
+		max-width:300px;
+		margin-top: 150px;
+	}
 
 }
 
