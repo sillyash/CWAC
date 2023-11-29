@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/* -------------FONTS--------------*/
+
+/* josefin-sans-regular - latin */
+@font-face {
+	font-display: swap; 
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/josefin-sans-v32-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		 url('../fonts/josefin-sans-v32-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+  
+/* josefin-sans-600 - latin */
+@font-face {
+	font-display: swap; 
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/josefin-sans-v32-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		 url('../fonts/josefin-sans-v32-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+  
+/* josefin-sans-700 - latin */
+@font-face {
+	font-display: swap; 
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/josefin-sans-v32-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		 url('../fonts/josefin-sans-v32-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+  
+
+/*---------------ALL---------------*/
+
+* {
+	margin  : 0;
+	padding : 0;
+	font-family : 'Josefin Sans', sans-serif;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: grey; /* couleur pour blend */
+	background-image : url('../images/background.jpg'); /* image */
+	background-size : contain; /* couvrir toute la page */
+	background-repeat : repeat; /* répéter l'image si besoin */
+	background-blend-mode: screen; /* blend img and color */
+	background-attachment: fixed; /* le fond reste immobile lors du scroll */
+}
+
+main {
+	/* on met de la marge avec le header et footer */
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* séparateur de contenu (vague noire) */
+.separator {
+	/* taille */
+	width: 100%;
+	height: 50px;
+}
+
+/* bouton pour remonter en bas de page */
+.back-to-top img {
+	margin-top: 30px;
+	/* centré */
+	margin-left: calc(50% - 40px);
+	margin-right: calc(50% - 40px);
+	/* taille */
+	width: 80px;
+}
+
+/*---------------HEADER-----------------*/
+header {
+	position: fixed; /* always visible */
+	top: 0; left: 0; /* on top */
+	width: 100%;
+	background-color: #FFFAEB;
+	z-index: 100; /* on the foreground */
+}
+
+.navbar .logo {
+	display: block;
+	margin:2rem;
+	/* taille par rapport à navbar */
+	width: 15%;
+}
+
+.navbar .logo img {
+	/* taille de l'image */
+	width : 65px;
+}
+
+.navbar .logo {
+	margin : 6.4px 6.4px 6.4px 4%;
+	/*  on met le lien à la même taille que l'image 
+		pour que le lien couvre toute l'image */
+	width : 65px;
+	/* on met à gauche */
+	float : left;
+}
+
+.navbar nav {
+	margin : 0;
+	display : flex;
+	flex-direction: row;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : space-evenly;
+	height : 80px;
+}
+
+nav > a {
+	text-align : center;
+	font-weight : bold;
+	text-decoration : none;
+	font-size : 1.2rem;
+	color : black;
+	margin : 0.7rem 1rem 0.7rem 1rem;
+	width : auto;
+}
+
+nav a:hover {
+	color: #e84a5f;
+	transition: 0.4s;
+}
+
+
+
+
+/*---------------FOOTER-----------------*/
+footer {
+	background-color: #FFFAEB;
+	margin : 1rem 0 0 0;
+	padding : 0.5rem;
+	display : flex;
+	flex-direction: row;
+	flex-wrap : wrap;
+	align-items : center;
+	align-content : center;
+	justify-content: space-around;
+}
+
+footer section {
+	margin: 0.5rem 1.5rem;
+	width: 20%;
+	display: block;
+	padding: 1em;
+	border: 1px solid #FF847C;
+	border-radius: 20px;
+	background-color: #FF847C;
+	text-align: center;
+	color: black;
+	line-height: 2;
+}
+
+footer section b, p, a {
+	background-color: inherit;
+}
+
+footer section img {
+	background-color: inherit;
+	width: 60px;
+}
+
+footer > img {
+	border: 2px solid #FF847C;
+	border-radius: 10px;
+	max-width: 40%;;
+}
+
+footer a {
+	background-color: inherit;
+	color: black;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+footer a:hover {
+	color: white;
+	transition: 0.4s;
+}
+
+
+/*---------------MEDIA QUERIES----------------*/
+
+@media (max-width: 545px) {
+	.navbar nav {height : 125px;}
+	footer > img {
+		order: 3;
+	}
+	footer section {
+		width: 29%;
+		margin: 1rem;
+	}
+}
+
+@media ((min-width: 546px) and (max-width: 800px)) {
+	footer > section {width: 35%;}
+	.separator {height: 15px;}
+	footer > img {
+		order: 3;
+	}
+}
+
+@media ((min-width: 801px) and (max-width: 1100px)) {
+	footer > section {width: 35%;}
+	.separator {height: 25px;}
+	footer > img {
+		order: 3;
+	}
+}

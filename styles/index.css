@@ -1,0 +1,459 @@
+@charset "utf-8";
+
+
+/*---Titre et logo---*/
+#page-title {
+	margin-top: 10rem;
+	/* flex horizontal */
+	display: flex;
+	flex-direction: row;
+	/* éléments et contenu centré */
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#page-title img {
+	width: 15%;
+}
+
+#page-title h1 {
+	margin: 2rem;
+	/* centré */
+	text-align: center;
+	padding-top: 2rem;
+	/* taille de la police */
+	font-size: 7rem;
+}
+
+nav a.ici{
+	color : #e84a5f;
+}
+
+
+/*---Sous-titres---*/
+main h2 {
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+	/* centrer */
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	/* taille et style */
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+main h3 {
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+	/* centrer */
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	/* taille et style */
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+/* marge pour chaque section par défault */
+section {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
+
+/*---Vidéo---*/
+#mainvid {
+	margin-bottom: 4rem;
+	margin-top: 5rem;
+	/* centrer */
+	margin-left: auto;
+    margin-right: auto;
+	/* Instructions de l'hébergeur pour la vidéo */
+	position: relative;
+	width: 85%;
+	height: 0px;
+	padding-bottom: 58%;
+}
+
+#mainvid iframe {
+	filter: grayscale(40%);
+}
+
+/*---Grilles---*/
+main .grid {
+	width: 95%;
+	display: grid;
+	/* centré */
+	margin-left: auto;
+	margin-right: auto;
+	/* centrer les éléments et le contenu */
+	justify-content: center;
+	align-items: center;
+	/* écart entre les lignes */
+	row-gap: 100px;
+}
+
+/* Pour les items des grilles */
+main .grid-item {
+	padding: 1.5rem;
+	/* centrer le contenu dans la cellule */
+	justify-self: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Pour les images des grilles */
+.grid img {
+	/*  pas de marge ou de padding
+	    pour ne pas perdre d'espace */
+	padding: 0;
+	margin: 0;
+	/* arrondir les bords */
+	border-radius: 15px;
+	max-width: 80%;
+}
+
+/* pour le texte dans les grilles */
+.grid p {
+	/* taille et style de la police */
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* Texte sur image */
+.over-image {
+	/* 	pour mettre le texte par dessus l'image,
+		 on met en relatif et on décale */
+	position: relative;
+	bottom: 2.3rem;
+	margin-left: 7.5rem;
+	font-size: 1.5rem;
+	color: white;
+}
+
+/* grille 1 */
+#desc_generale {
+	/*  deux colonnes, taille automatique 
+	    en fonction du contenu */
+	grid-template-columns: auto auto;
+}
+
+/* le titre fait toute la largeur de la grille */
+#desc_generale > h2 {
+	grid-column-start: span 2;
+}
+
+#desc_generale p {
+	max-width: 70%;
+	padding: 5rem;
+	margin: 2rem;
+	/* couleur de fond */
+	background: #F4CEA5;
+	/* bords arrondis */
+	border-radius: 25px;
+}
+
+#bangalter {
+	display: block;
+	margin: 0 auto;
+}
+
+#desc_generale p:nth-child(2) {
+	/* couleur de fond */
+	background: #A8B3B4;
+}
+
+#desc_generale a {
+	/* style et couleur des liens */
+	text-decoration: none;
+	color: white;
+	transition: 0.4s;
+}
+
+#desc_generale a:hover {
+	/* style et couleur des liens survolés */
+	color: steelblue;
+	transition: 0.4s;
+}
+
+
+/* grille 2 */
+#argumentation {
+	/* 3 colonnes, unité fractionnelle */
+	grid-column-start: span 3;
+}
+
+/* le titre fait toute la largeur de la grille */
+#argumentation > h2 {
+	grid-column-start: span 3;
+}
+
+#argumentation article {
+	margin: 2rem;
+	max-width: 70%;
+	padding: 0 3rem 2rem 3rem;
+	/* même hauteur pour tous les articles */
+	height: 600px;
+	/* arrondi */
+	border-radius: 15px;
+	/* centré verticalement */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#argumentation h2 {
+	margin: 1rem 0 0 0;
+}
+
+#argumentation h3 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+#argumentation a {
+	display: block;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+	transition: 0.4s;
+}
+
+#argumentation a:hover {
+	color: #E84A5F;
+	transition: 0.4s;
+}
+
+#argumentation article:nth-child(2) {
+	/* couleur de fond */
+	background: #E8C095;
+}
+
+#argumentation article:nth-child(3) {
+	/* couleur de fond */
+	background: #A8B3B4;
+}
+
+#argumentation article:nth-child(4) {
+	/* couleur de fond */
+	background: #EBAA98;
+}
+
+/* grille 3 */
+#campus {
+	padding-bottom: 3rem;
+	/*  deux colonnes, taille automatique 
+	    en fonction du contenu */
+	grid-template-columns: auto auto;
+}
+
+/* le titre fait toute la largeur de la grille */
+#campus > h2 {
+	/* 2 colonnes, unité fractionnelle */
+	grid-column-start: span 2;
+}
+
+#campus article {
+	max-width: 80%;
+	padding: 0 3rem 3rem 3rem;
+	/* couleur de fond */
+	background: rgba(235, 170, 152, 1);
+	/* arrondi */
+	border-radius: 25px;
+}
+
+#campus article:nth-child(2) {
+	background-color: #CDD9D8;
+}
+
+/* grille 4 */
+#entreprises {
+	padding-bottom: 3rem;
+	/*  deux colonnes, taille automatique 
+	    en fonction du contenu */
+	grid-template-columns: auto auto;
+}
+
+/* le titre fait toute la largeur de la grille */
+#entreprises > h2 {
+	/* 2 colonnes, unité fractionnelle */
+	grid-column-start: span 2;
+}
+
+#entreprises article {
+	max-width: 80%;
+	padding: 0 3rem 3rem 3rem;
+	/* couleur de fond */
+	background: rgba(235, 170, 152, 1);
+	/* arrondi */
+	border-radius: 25px;
+}
+
+#entreprises article:nth-child(2) {
+	background-color: #E8C095;
+}
+
+#entreprises article:nth-child(6) {
+	background-color: #e84a5f;
+}
+
+/*---Equipe Pédagogique---*/
+#equipeflex {
+	width: 90%;
+	padding: 1rem;
+	/* centré */
+	margin-right: auto;
+	margin-left: auto;
+	/*Flex horizontal*/
+	display: flex;
+	flex-direction: row;
+	/*Le débordement horizontal est scrollable*/
+	overflow-x: scroll;
+	/* On centre les éléments */
+	align-items: center;
+	/* couleur de fond */
+	background: rgba(205, 217, 215, 0.7);
+	/* arrondi */
+	border-radius: 25px;
+}
+
+/* Scrollbar */
+#equipeflex::-webkit-scrollbar {
+	/* taille de la barre */
+	height: 15px;
+}
+
+/* piste de défilement */
+#equipeflex::-webkit-scrollbar-track {
+	background-color: #FF847C;
+	/* bords arrondis */
+	border-radius: 1rem;
+}
+
+/* zone/pouce de défilement */
+#equipeflex::-webkit-scrollbar-thumb {
+	background-color: #E84A5F;
+	/* bords arrondis */
+	border-radius: 1rem;
+}
+
+#equipeflex img {
+	margin: 2rem;
+	border-radius: 2rem;
+	/*  même taille pour toutes les images
+	    (toutes de ratio 5:4) */
+	height: 400px;
+}
+
+#equipeflex > div {
+	margin: 1.5rem;
+}
+
+/* sélectionne les "." entre les div */
+#equipeflex > p {
+	margin: 1rem 2.5rem;
+	/* taille et style du texte */
+	font-size: 4rem;
+	font-weight: 700;
+	/* centré */
+	text-align: center;
+}
+
+#equipeflex div p {
+	/* taille et style du texte */
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+#arrow {
+		margin-top: 100px;
+		margin-left: 50%;
+		margin-right: 50%;
+		max-width: 10%;
+		display: flex;
+	}
+
+
+/*---------------MEDIA QUERIES----------------*/
+
+@media (min-width: 350px) and (max-width: 800px) {
+	#page-title h1 {font-size: 4rem;}
+	main h2 {font-size: 2rem;}
+	#desc_generale > p {padding: 1.5rem !important;}
+	#argumentation article {height: 450px;}
+	main .grid p {
+		font-size: 1rem;
+		padding: 0.5rem !important;
+		margin: 0.5rem !important;
+	}
+	main .grid a {font-size: 1rem !important;}
+	main .grid {
+		grid-template-columns: auto !important;
+		row-gap: 20px;
+	}
+	main .grid h2, h3, a {
+		grid-column-start: span 1 !important;
+		margin: 1rem 0.3rem 0.5rem 0.3rem !important;
+	}
+	main .grid h2 {font-size: 1.6rem !important;}
+	main .grid h3 {
+		font-size: 1.3rem !important;
+		font-weight: 700;
+	}
+	#argumentation a {font-size: 1.5rem !important;}
+	main .grid .grid-item {padding: 0.5rem !important;}
+	.over-image {font-size: 1rem;}
+	#equipeflex h3 {font-size: 1.5rem;}
+	#equipeflex > div {margin: 0.5rem;}
+	#equipeflex div p {font-size: 1rem; margin: 0.5rem;}
+	#equipeflex > p {font-size: 2rem; margin: 0.5rem;}
+	#equipeflex img {height: 200px; margin: 0.5rem;}
+	.over-image {
+		margin-left: 5em;
+	}
+
+
+	
+}
+
+@media ((min-width: 801px) and (max-width: 1100px)) {
+	#page-title h1 {font-size: 5rem;}
+	main h2 {font-size: 3rem;}
+	.grid article {
+		margin: 0.7rem;
+	}
+	.grid img {
+		width: 90%;
+	}
+	#desc_generale > p {
+		padding: 2rem !important;
+		font-size: 1.1rem;
+	}
+	#argumentation article {
+		height: 900px;
+		margin: 0.5rem;
+		padding: 1.2rem;
+	}
+	#equipeflex h3 {font-size: 1.8rem;}
+	#equipeflex > div {margin: 0.6rem;}
+	#equipeflex div p {font-size: 1.2rem; margin: 0.7rem;}
+	#equipeflex > p {font-size: 3rem; margin: 0.5rem;}
+	#equipeflex img {height: 230px; margin: 0.5rem;}
+}
+
+@media ((min-width: 1101px) and (max-width: 1350px)) {
+	#argumentation article {
+		height: 750px;
+		margin: 0.5rem;
+		padding: 1.2rem;
+	}
+
+}
+
