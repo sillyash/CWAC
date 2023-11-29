@@ -271,6 +271,36 @@ main .grid-item {
 	background-color: #CDD9D8;
 }
 
+/* grille 4 */
+#entreprises {
+	padding-bottom: 3rem;
+	/*  deux colonnes, taille automatique 
+	    en fonction du contenu */
+	grid-template-columns: auto auto;
+}
+
+/* le titre fait toute la largeur de la grille */
+#entreprises > h2 {
+	/* 2 colonnes, unité fractionnelle */
+	grid-column-start: span 2;
+}
+
+#entreprises article {
+	max-width: 80%;
+	padding: 0 3rem 3rem 3rem;
+	/* couleur de fond */
+	background: rgba(235, 170, 152, 1);
+	/* arrondi */
+	border-radius: 25px;
+}
+
+#entreprises article:nth-child(2) {
+	background-color: #E8C095;
+}
+
+#entreprises article:nth-child(4) {
+	background-color: #e84a5f;
+}
 
 /*---Equipe Pédagogique---*/
 #equipeflex {
