@@ -183,7 +183,7 @@ main .grid-item {
 /* grille 2 */
 #argumentation {
 	/* 3 colonnes, unité fractionnelle */
-	grid-column-start: 1fr 1fr 1fr;
+	grid-column-start: span 3;
 }
 
 /* le titre fait toute la largeur de la grille */
