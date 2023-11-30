@@ -162,7 +162,11 @@ footer section {
 	line-height: 2;
 }
 
-footer section b, p, a {
+footer section h2 {
+	font-size:large;
+}
+
+footer section h1, p, a {
 	background-color: inherit;
 }
 
