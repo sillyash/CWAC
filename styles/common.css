@@ -201,6 +201,7 @@ footer a:hover {
 	footer > img {
 		order: 3;
 	}
+	.separator {height: 15px}
 	footer section {
 		width: 29%;
 		margin: 1rem;
@@ -209,7 +210,7 @@ footer a:hover {
 
 @media ((min-width: 546px) and (max-width: 800px)) {
 	footer > section {width: 35%;}
-	.separator {height: 15px;}
+	.separator {height: 20px;}
 	footer > img {
 		order: 3;
 	}
