@@ -1,4 +1,5 @@
-# CWAC
+# CWAC · A webpage for a fictional school
+
 Projet de Semestre 1 en BUT Informatique à l'IUT d'Orsay
 Ash Merienne & Abdallah Syd
 
